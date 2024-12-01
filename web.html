@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--buat tampilan bagian atas(judul)+connect sama css-->
+    <head>
+        <title>intro</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+
+<!--buat tampilan body (header, content, footer)-->
+    <body>
+<!--buat ngasih gambar di header-->        
+        <header class="header">
+            <img src="p5-removebg-preview.png" width="100" height="100">
+        </header>
+        <hr>
+<!--buat tampilan slideshow gambar di bagian content-->
+        <section id="slideshow-container">
+            <section class="mySlides fade">
+                <img src="p2.jpg" style="width:100%">
+            </section>     
+            <section class="mySlides fade">
+                <img src="p1.jpg" style="width:100%">
+            </section>
+        </section>
+
+<!--buat tampilan tombol buat ganti gambar-->
+        <section id="button">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </section>
+
+<!--buat tampilan content berupa kalimat, link, tabel, dll-->
+        <section>
+            <p>
+                <b><a href=https://maps.app.goo.gl/VJskxJuabzvSGWh56?g_st=ac>Come and try!&#128151;</a></b>
+            </p>
+            <p>
+            <ul>
+                <li><i>Dedicate this WebPage to my parents' business. </i></li>
+                <li><i>Created this WebPage by elaborating on my lecture course material and several other sources such as dibimbing webinar material and the W3SCHOOL website.</i></li>
+            </ul>
+            </p>
+        </section>
+
+<!--buat tampilan tombol mode-->
+        <section id="button">
+        <button onclick="gantiWarnaRandom()">Mode</button>
+        </section>
+
+<!--buat connect ke js--> 
+        </section>
+        <script src="script.js"></script>
+
+<!--buat tampilan footer-->
+        <hr>
+        <footer class="footer">
+            <h3>Thank You For Visiting My WebPage!</h3>
+        </footer>
+    </body>
+
+</html>
